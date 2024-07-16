@@ -71,17 +71,17 @@ A  `subreddit` value is required by the script. All other values are optional wi
 ```
 
 ## Some examples:
-Creating a private playlist from the YouTube links found amoung the 10 newest posts in [r/TrueDoomMetal](https://www.reddit.com/r/TrueDoomMetal/):
+Creating a private playlist from the YouTube links found among the 10 newest posts in [r/TrueDoomMetal](https://www.reddit.com/r/TrueDoomMetal/):
 ```
 python main.py TrueDoomMetal
 ```
 
-Creating an unlisted playlist called 'Mine' from the YouTube links found amoung the 20 hottest posts in [r/Buckethead](https://www.reddit.com/r/Buckethead/):
+Creating an unlisted playlist called 'Mine' from the YouTube links found among the 20 hottest posts in [r/Buckethead](https://www.reddit.com/r/Buckethead/):
 ```
 python main.py Buckethead -f hot -n 20 -pn Mine -pt unlisted
 ```
 
-Creating an public playlist from the YouTube links found amoung the top 7 posts in [r/Buckethead](https://www.reddit.com/r/Buckethead/), while checking quota usage:
+Creating an public playlist from the YouTube links found among the top 7 posts in [r/Buckethead](https://www.reddit.com/r/Buckethead/), while checking quota usage:
 ```
 python main.py Buckethead -f top -n 7 -pt public --quota
 ```
