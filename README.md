@@ -28,7 +28,7 @@ Script to generate YouTube playlists from Reddit posts.
   - Replace the XXXX value with the name of the client secret json file you downloaded:
 ```
 [YOUTUBE]
-CLIENT_SECRET_FILE = XXXX
+CLIENT_SECRET_FILE = file_name.json
 ```
 
 ## Running the script
